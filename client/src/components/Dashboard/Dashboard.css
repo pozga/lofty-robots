@@ -1,0 +1,15 @@
+.MainButton {
+    background-color: rgb(255, 3, 142);
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+.MainButton:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.Message {
+    padding: 1rem 2rem;
+}

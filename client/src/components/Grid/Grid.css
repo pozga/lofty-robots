@@ -1,0 +1,25 @@
+.Grid {
+    display: flex;
+   justify-content: center;
+}
+
+.Column {
+    justify-content: center;
+    align-items: center;
+}
+
+.Cell {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 40px;
+}
+.Grid:not(.Loading) .Cell:hover {
+    cursor: pointer;
+}
+
+.Cell.Explored {
+    background-color: aquamarine;
+}
